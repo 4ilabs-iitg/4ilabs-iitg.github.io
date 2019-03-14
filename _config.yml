@@ -7,10 +7,10 @@ url: "https://4ilabs-iitg.github.io"
 
 
 # Secondary Parameters
-baseurl: "4ilabs-iitg.github.io"
+baseurl: "/4ilabs-iitg.github.io"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /img/logos/logo1.png
+logo: /4ilabs-iitg.github.io/img/logos/logo1.png
 
 # Tertiary Parameters
 github_username:  projectpages

@@ -13,9 +13,10 @@ headercolor: "#FFFFFF"
 logo: /4ilabs-iitg.github.io/img/logos/logo1.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
-disqus_shortname: project-pages
+github_username:  4ilabs-iitg
+project_repository: 4ilabs-iitg.github.io
+disqus_shortname: 4ilabs-iitg
+facebook_username: 4ilabiitg
 g-analytics: UA-75881392-1
 altmetric: true
 

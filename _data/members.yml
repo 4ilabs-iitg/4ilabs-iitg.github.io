@@ -9,7 +9,22 @@
   visible: true
 
    
-- name: Afzal Adfdhmad
+- name: Vamshi Krishna Reddy
+  role: General Secretary, Technical Board
+  dept: ECE
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p240x240/28276933_1601615513279733_2481404294132809568_n.jpg?_nc_cat=101&_nc_ht=scontent-bom1-2.xx&oh=fc5428d488c7b273b92c51510795ba3a&oe=5D01DFE0
+  github: vamshikrishna1370
+  bio: Vamshi Krisha Reddy currently leads and amanges the whole of Technical Board of IIT Guwahati.
+  visible: true
+  
+- name: Surya R. Kalidindi
+  role: Materials Informatics
+  img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
+  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
+  url: http://mined.gatech.edu/
+  visible: false
+  
+- name: Afzal Ahmad
   role: Project Head, Arle
   dept: EEE
   project: Arle
@@ -20,9 +35,13 @@
   url: https://afzalhmd14.github.io 
   visible: true
   
-- name: Surya R. Kalidindi
-  role: Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
-  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
-  url: http://mined.gatech.edu/
+ - name: Afzal Ahmad
+  role: Project Head, Arle
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: https://avatars3.githubusercontent.com/u/17072540?s=400&v=4
+  github: afzalhmd14
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
   visible: false

@@ -1,0 +1,10 @@
+- name: Pravardhan Reddy
+  role: Project Head, Hexacopter
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: http://172.16.101.237/techboard/assets/img/team/pravardhan.jpg
+  github: pravardhanreddy
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true

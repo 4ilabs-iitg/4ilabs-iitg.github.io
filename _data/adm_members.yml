@@ -8,9 +8,35 @@
   visible: true
 
 
+- name: Harshal B. Nemade
+  role: Faculty Advisor, 4I Labs
+  dept: EEE
+  img: http://www.iitg.ac.in/eee/images/hbn.jpg
+  bio: Electronic instrumentation, Systems design, Ultrasonic instrumentation, Non-destructive testing, Electronic product design, EMI/EMC issues, Acoustic sensors, Underwater acoustics, Surface acoustic wave devices, MEMS.
+  url: http://www.iitg.ac.in/eee/nemade.html
+  visible: true
+
+
+- name: Pankaj Upadhyay
+  role: Faculty Advisor, 4I Labs
+  dept: Design
+  img: http://www.iitg.ac.in/design/upload/images/faculties/pu.jpg
+  bio: Pankaj is a Product Designer from the Indian Institute of Science, Bangalore with a bachelor's degree in Mechanical Engineering from NIT Silchar. He has an in-depth experience in the area of product design, development and manufacturing which he gained working with an Indian multinational company designing and developing products, ranging from consumer brown goods to heavy electrical equipment for substations. He believes in the philosophy that design is always from the inside out and anything that is not beautiful on the inside can't truly be called beautiful. Beautiful design works well and looks good doing so. He swears by the motto "Minimum human intervention and maximum human value". During his four year tenure with the Indian multinational company he applied for more than 50 design registrations and 4 collaborative patents. He loves to spend time sketching, playing the guitar and reading.
+  url: http://www.iitg.ac.in/design/portfolio/bio-pankaj.pdf
+  visible: true
+
+- name: Sudipto Ghosh
+  role: Project Engineer, 4I Labs
+  img: http://172.16.101.237/techboard/assets/img/avatar/sudipto.jpg
+  bio: Pankaj is a Product Designer from the Indian Institute of Science, Bangalore with a bachelor's degree in Mechanical Engineering from NIT Silchar. He has an in-depth experience in the area of product design, development and manufacturing which he gained working with an Indian multinational company designing and developing products, ranging from consumer brown goods to heavy electrical equipment for substations. He believes in the philosophy that design is always from the inside out and anything that is not beautiful on the inside can't truly be called beautiful. Beautiful design works well and looks good doing so. He swears by the motto "Minimum human intervention and maximum human value". During his four year tenure with the Indian multinational company he applied for more than 50 design registrations and 4 collaborative patents. He loves to spend time sketching, playing the guitar and reading.
+  visible: true
+
+
 - name: Vamsi Krishna Reddy
   role: General Secretary, Technical Board
   dept: ECE
   img: http://172.16.101.237/techboard/assets/img/team/vamshi.jpg
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics. 
   visible: true
+
+

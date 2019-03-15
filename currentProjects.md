@@ -2,7 +2,7 @@
 layout: page
 title: "Projects"
 description: "Projects under 4I Labs"
-header-img: "img/home-bg.jpg"
+header-img: "img/team_bg_gray1.jpg"
 ---
 
 

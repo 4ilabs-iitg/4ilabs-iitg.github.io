@@ -2,7 +2,7 @@
 layout: page
 title: "Documentation"
 description: "Docs for projects"
-header-img: "img/home-bg.jpg"
+header-img: "img/team_bg_gray1.jpg"
 ---
 
 ## Project Documentations

@@ -1,0 +1,16 @@
+
+- name: Arnab Sarkar
+  role: Chairman, Technical Board
+  dept: CSE
+  img: http://jatinga.iitg.ernet.in/~arnabsarkar/Arnab.jpg
+  bio: Arnab Sarkar is a Associate Professor in CSE Department of IIT Guwahati, currently heading the Technical Board. He has worked briefly as a Visiting Scientist with the Advanced Computing and Micro-electronics Unit (ACMU), Indian Statistical Institute (ISI), Kolkata, India, before joining Samsung India Software Operations (SISO), Bangalore where he worked for one year as a Chief Engineer with the Android Platforms Group. He is specially interested in Real-Time and Embedded Systems, Computer Architecture, Algorithms.
+  url: http://jatinga.iitg.ernet.in/~arnabsarkar/
+  visible: true
+
+
+- name: Vamsi Krishna Reddy
+  role: General Secretary, Technical Board
+  dept: ECE
+  img: http://172.16.101.237/techboard/assets/img/team/vamshi.jpg
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics. 
+  visible: true

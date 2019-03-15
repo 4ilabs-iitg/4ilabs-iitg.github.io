@@ -1,24 +1,8 @@
 # Members
 
-- name: Arnab Sarkar
-  role: Chairman, Technical Board
-  dept: CSE
-  img: http://jatinga.iitg.ernet.in/~arnabsarkar/Arnab.jpg
-  bio: Arnab Sarkar is a Associate Professor in CSE Department of IIT Guwahati, currently heading the Technical Board. He has worked briefly as a Visiting Scientist with the Advanced Computing and Micro-electronics Unit (ACMU), Indian Statistical Institute (ISI), Kolkata, India, before joining Samsung India Software Operations (SISO), Bangalore where he worked for one year as a Chief Engineer with the Android Platforms Group. He is specially interested in Real-Time and Embedded Systems, Computer Architecture, Algorithms.
-  url: http://jatinga.iitg.ernet.in/~arnabsarkar/
-  visible: true
 
    
-- name: Afzal Adfdhmad
-  role: Project Head, Arle
-  dept: EEE
-  project: Arle
-  team: Control, ROS & Design
-  img: https://avatars3.githubusercontent.com/u/17072540?s=400&v=4
-  github: afzalhmd14
-  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
-  url: https://afzalhmd14.github.io 
-  visible: true
+
   
 - name: Surya R. Kalidindi
   role: Materials Informatics
@@ -26,3 +10,8 @@
   bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
   url: http://mined.gatech.edu/
   visible: false
+
+
+
+
+- name: 

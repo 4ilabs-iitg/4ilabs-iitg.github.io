@@ -3,7 +3,7 @@
 
     "2019-03-04-robotics-hackathon": {
       "title": "Robotics Hackathon",
-      "content"	 : "Robotics HackathonRecently the hackathon was organised by Robotics Club, IITG.",
+      "content"	 : "Robotics HackathonRecently the hackathon was organised by Robotics Club, IITG.This is how to write a nwe postbolsdfdafdaf",
       "url": "/4ilabs-iitg.github.io/2019/03/04/Robotics-Hackathon/",
       "author": "4I Lab",
       "categories": ""
@@ -11,12 +11,22 @@
     ,
   
 
-    "arle-2016-05-02-new-surface-visualization": {
+    "arle-2019-03-04-first-hello": {
+      "title": "Hello World!",
+      "content"	 : "Autonomous Robot for Library Enhancement(ARLE)A project aimed at library maintenance by keeping the books sorted and in proper location. This will be achieved by an autonomous robot which can pick and place books from various locations in the library and keep it in the correct shelf.",
+      "url": "/4ilabs-iitg.github.io/arle/2019/03/04/First-Hello/",
+      "author": "Abhay Pratap Singh",
+      "categories": "arle"
+    }
+    ,
+  
+
+    "2016-05-02-new-surface-visualization": {
       "title": "New Surface Visualization",
       "content"	 : "",
-      "url": "/4ilabs-iitg.github.io/arle/2016/05/02/New-Surface-Visualization/",
+      "url": "/4ilabs-iitg.github.io/2016/05/02/New-Surface-Visualization/",
       "author": "Ahmet Cecen",
-      "categories": "arle"
+      "categories": ""
     }
     ,
   

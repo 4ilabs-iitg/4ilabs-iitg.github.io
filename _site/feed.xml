@@ -5,8 +5,8 @@
     <description>Ideate, Innovate, Initiate, Incubate</description>
     <link>http://localhost:4000/4ilabs-iitg.github.io/</link>
     <atom:link href="http://localhost:4000/4ilabs-iitg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Mar 2019 01:15:19 +0530</pubDate>
-    <lastBuildDate>Sat, 16 Mar 2019 01:15:19 +0530</lastBuildDate>
+    <pubDate>Sat, 16 Mar 2019 03:36:04 +0530</pubDate>
+    <lastBuildDate>Sat, 16 Mar 2019 03:36:04 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -16,6 +16,11 @@
 Robotics Hackathon
 
 Recently the hackathon was organised by Robotics Club, IITG.
+This is how to write a nwe post
+
+bolsdf
+
+dafdaf
 
 
 </description>
@@ -35,12 +40,41 @@ Recently the hackathon was organised by Robotics Club, IITG.
       </item>
     
       <item>
+        <title>Hello World!</title>
+        <description>
+
+Autonomous Robot for Library Enhancement(ARLE)
+
+A project aimed at library maintenance by keeping the books sorted and in proper location. This will be achieved by an autonomous robot which can pick and place books from various locations in the library and keep it in the correct shelf.
+
+
+
+
+
+
+</description>
+        <pubDate>Mon, 04 Mar 2019 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/4ilabs-iitg.github.io/arle/2019/03/04/First-Hello/</link>
+        <guid isPermaLink="true">http://localhost:4000/4ilabs-iitg.github.io/arle/2019/03/04/First-Hello/</guid>
+        
+        <category>4ilabs</category>
+        
+        <category>robo_club</category>
+        
+        <category>arle</category>
+        
+        
+        <category>arle</category>
+        
+      </item>
+    
+      <item>
         <title>New Surface Visualization</title>
         <description>
 </description>
         <pubDate>Mon, 02 May 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/4ilabs-iitg.github.io/arle/2016/05/02/New-Surface-Visualization/</link>
-        <guid isPermaLink="true">http://localhost:4000/4ilabs-iitg.github.io/arle/2016/05/02/New-Surface-Visualization/</guid>
+        <link>http://localhost:4000/4ilabs-iitg.github.io/2016/05/02/New-Surface-Visualization/</link>
+        <guid isPermaLink="true">http://localhost:4000/4ilabs-iitg.github.io/2016/05/02/New-Surface-Visualization/</guid>
         
         <category>plysurface</category>
         
@@ -48,8 +82,6 @@ Recently the hackathon was organised by Robotics Club, IITG.
         
         <category>template</category>
         
-        
-        <category>arle</category>
         
       </item>
     

@@ -4,287 +4,102 @@ title: "Members"
 description: "Faculty & Students working on projects"
 header-img: "img/team_bg_gray1.jpg"
 ---
-<hr style="height: 5px;">
 
+
+
+<h1>Administation Team</h1>
+
+<hr style="height: 5px;">
 
 
 <div class="row">
 {% for member in site.data.adm_members %} {% if member.visible == true %}
 		<div class="col-md-4">
 			<div class="thumbnail">
-				<img src="{{ member.img }}">
+				<img src="{{ member.img }}" style="width: 200px; height: 250px;">
 				<div class="caption">
-					<h3>{{ member.name }}</h3>
-					<h4>{{ member.role }}</h4>
+					<h5>{{ member.name }}</h3>
+					<h6>{{ member.role }}</h4>
 				</div>				
 			</div>			
 		</div>		
-
 {% endif %}{% endfor %}
+</div>
 
 
+<h1>Arle Team</h1>
+<hr>
 
-<!-- 	<div class="media justify-content-between">
-	 	<div class="media-left media-top">
-	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  	</div>
-
-	  	<div class="media-body text-right" style="width: 580px;">
-	    	<h1 class="media-heading">{{ member.name }}</h1>
-	    	<h3> {{ member.role }} </h2>
-
-
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
-			<div id="bio{{ forloop.index }}" class="collapse">
-				{% if member.bio %} 
-				{{ member.bio }}
-				{% endif %}
-			</div>
-		</div>
-	</div>
-
-	<br/>
-	<br/>
-{% endif %}{% endfor %}
-
-
-<hr size="3px">
-
-
+<div class="row">
 {% for member in site.data.arle_members %} {% if member.visible == true %}
-	<div class="media justify-content-between">
-	 	<div class="media-left media-top">
-	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  	</div>
-
-	  	<div class="media-body text-right" style="width: 580px;">
-	    	<h1 class="media-heading">{{ member.name }}</h1>
-	    	<h3> {{ member.role }} </h2>
-
-			{% if member.project %}
-			<h4> Project : {{ member.project }} </h2>
-			{% endif %}
-
-			{% if member.team %}
-			<h4> Team : {{ member.team }} </h2>
-			{% endif %}
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
-			<div id="bio{{ forloop.index }}" class="collapse">
-				{% if member.bio %} 
-				{{ member.bio }}
-				{% endif %}
-			</div>
-		</div>
-	</div>
-
-	<br/>
-	<br/>
+		<div class="col-md-3">
+			<div class="thumbnail">
+				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
+				<div class="caption">
+					<h6>{{ member.name }}</h3>
+					<p>
+						{{ member.role }}</br>
+						{{ member.team }}
+					</p>
+				</div>				
+			</div>			
+		</div>		
 {% endif %}{% endfor %}
+</div>
 
 
+<h1>Hexacopter Team</h1>
+<hr>
 
-<hr size="5px">
-
-{% for member in site.data.raman_members %} {% if member.visible == true %}
-	<div class="media justify-content-between">
-	 	<div class="media-left media-top">
-	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  	</div>
-
-	  	<div class="media-body text-right" style="width: 580px;">
-	    	<h1 class="media-heading">{{ member.name }}</h1>
-	    	<h3> {{ member.role }} </h2>
-
-			{% if member.project %}
-			<h4> Project : {{ member.project }} </h2>
-			{% endif %}
-
-			{% if member.team %}
-			<h4> Team : {{ member.team }} </h2>
-			{% endif %}
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
-			<div id="bio{{ forloop.index }}" class="collapse">
-				{% if member.bio %} 
-				{{ member.bio }}
-				{% endif %}
-			</div>
-		</div>
-	</div>
-
-	<br/>
-	<br/>
-{% endif %}{% endfor %}
-
-
-<hr size="3px">
-
-
+<div class="row">
 {% for member in site.data.hexacopter_members %} {% if member.visible == true %}
-	<div class="media justify-content-between">
-	 	<div class="media-left media-top">
-	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  	</div>
-
-	  	<div class="media-body text-right" style="width: 580px;">
-	    	<h1 class="media-heading">{{ member.name }}</h1>
-	    	<h3> {{ member.role }} </h2>
-
-			{% if member.project %}
-			<h4> Project : {{ member.project }} </h2>
-			{% endif %}
-
-			{% if member.team %}
-			<h4> Team : {{ member.team }} </h2>
-			{% endif %}
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
-			<div id="bio{{ forloop.index }}" class="collapse">
-				{% if member.bio %} 
-				{{ member.bio }}
-				{% endif %}
-			</div>
-		</div>
-	</div>
-
-	<br/>
-	<br/>
+		<div class="col-md-3">
+			<div class="thumbnail">
+				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
+				<div class="caption">
+					<h6>{{ member.name }}</h3>
+					<p>{{ member.role }}</p>
+				</div>				
+			</div>			
+		</div>		
 {% endif %}{% endfor %}
+</div>
 
 
-<hr size="3px">
+<h1>Raman Team</h1>
+<hr>
+
+<div class="row">
+{% for member in site.data.raman_members %} {% if member.visible == true %}
+		<div class="col-md-3">
+			<div class="thumbnail">
+				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
+				<div class="caption">
+					<h6>{{ member.name }}</h3>
+					<p>{{ member.role }}</p>
+				</div>				
+			</div>			
+		</div>		
+{% endif %}{% endfor %}
+</div>
 
 
+<h1>Antahsagari Team</h1>
+<hr>
+
+<div class="row">
 {% for member in site.data.antahsagari_members %} {% if member.visible == true %}
-	<div class="media justify-content-between">
-	 	<div class="media-left media-top">
-	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  	</div>
-
-	  	<div class="media-body text-right" style="width: 580px;">
-	    	<h1 class="media-heading">{{ member.name }}</h1>
-	    	<h3> {{ member.role }} </h2>
-
-			{% if member.project %}
-			<h4> Project : {{ member.project }} </h2>
-			{% endif %}
-
-			{% if member.team %}
-			<h4> Team : {{ member.team }} </h2>
-			{% endif %}
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
-			<div id="bio{{ forloop.index }}" class="collapse">
-				{% if member.bio %} 
-				{{ member.bio }}
-				{% endif %}
-			</div>
-		</div>
-	</div>
-
-	<br/>
-	<br/>
+		<div class="col-md-3">
+			<div class="thumbnail">
+				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
+				<div class="caption">
+					<h6>{{ member.name }}</h3>
+					<p>{{ member.role }}</p>
+				</div>				
+			</div>			
+		</div>		
 {% endif %}{% endfor %}
- -->
+</div>
 
-<!-- <div class="d-flex flex-row">
 
-{% for member in site.data.members %} {% if member.visible == true %}
-
-	<div class="row justify-content-between">
-
-		<div class="col-3">
-			<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-		</div>
-
-		<div class="col-9">
-			<h1>{{ member.name }}</h1>
-			
-			<h2>{{ member.role }}</h2>
-
-			{% if member.project %}
-			<h2> Project : {{ member.project }} </h2>
-			{% endif %}
-
-			{% if member.team %}
-			<h2> Team : {{ member.team }} </h2>
-			{% endif %}
-			
-			{% if member.github %} 
-			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
-			{% endif %}
-			{% if member.gplus %}
-			<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
-			{% endif %}
-			{% if member.url %}
-			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
-			{% endif %}
-			
-			</br>
-
-			{% if member.bio %} 
-			{{ member.bio }}
-			{% endif %}
-		</div>
-		
-	</div>
-
-{% endif %}{% endfor %}
-
-	<hr>
-
-</div> -->
 

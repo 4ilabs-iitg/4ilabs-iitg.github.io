@@ -35,7 +35,7 @@ header-img: "img/team_bg_gray1.jpg"
 			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 			{% endif %}
 			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More{{ forloop.index }}</button>
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio{{ forloop.index }}">More</button>
 			<div id="bio{{ forloop.index }}" class="collapse">
 				{% if member.bio %} 
 				{{ member.bio }}

@@ -1,0 +1,17 @@
+- team_id: 1
+  team_name: Control
+
+- team_id: 2
+  team_name: Design
+
+- team_id: 3
+  team_name: Integration
+
+- team_id: 4
+  team_name: ROS 
+
+- team_id: 6
+  team_name: Arm Design
+
+- team_id: 5
+  team_name: Default

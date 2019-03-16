@@ -1,9 +1,57 @@
 - name: Pravardhan Reddy
-  role: Project Head, Hexacopter
+  role: Project Member, Hexacopter
   dept: EEE
   project: Arle
   team: Control, ROS & Design
   img: http://172.16.101.237/techboard/assets/img/team/pravardhan.jpg
+  github: pravardhanreddy
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Rajan SUkanth
+  role: Project Member, Hexacopter
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/52744619_1210688042428929_5576238276135616512_n.jpg?_nc_cat=104&_nc_ht=scontent-bom1-2.xx&oh=c2c62b390050dd8073b7cbf2b95e5a45&oe=5D0E8E19
+  github: pravardhanreddy
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Ankit Kumar Saini
+  role: Project Member, Hexacopter
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.15752-9/54377095_399207960626907_5608560482018394112_n.jpg?_nc_cat=101&_nc_ht=scontent-bom1-2.xx&oh=28c8811d42fe490966696fca97d21a2b&oe=5D19C035
+  github: pravardhanreddy
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Manik Mittal
+  role: Project Member, Hexacopter
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: http://172.16.101.237/techboard/assets/img/team/pravardhan.jpg
+  github: pravardhanreddy
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Rahul Jacker
+  role: Project Member, Hexacopter
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/20953847_2018686418363082_700980569706384781_n.jpg?_nc_cat=108&_nc_ht=scontent-bom1-2.xx&oh=982d184c020ed68be739ba1b5a20dc3e&oe=5D1DF407
   github: pravardhanreddy
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
   url: https://afzalhmd14.github.io 

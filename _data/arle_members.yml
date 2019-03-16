@@ -15,7 +15,7 @@
   role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
+  team: Control, Integration & ROS
   img: https://avatars1.githubusercontent.com/u/25867103?s=460&v=4
   github: cybr17crwlr
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
@@ -36,10 +36,10 @@
 
 
 - name: Yash Kothari
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
+  team: Control & ROS
   img: https://avatars3.githubusercontent.com/u/22950744?s=460&v=4
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
@@ -47,7 +47,7 @@
   visible: true
 
 - name: Sharu Goel
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
   team: Control, ROS & Design
@@ -59,7 +59,7 @@
 
 
 - name: Varshil Gandhi
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
   team: Control, ROS & Design
@@ -71,11 +71,11 @@
 
 
 - name: Shreeyanshi Baradiya
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
-  img: https://avatars3.githubusercontent.com/u/17072540?s=400&v=4
+  team: Control & ROS
+  img: https://media.licdn.com/dms/image/C5103AQF2UOZOiWACRQ/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=ySguhEurVqQfkpkrWI7GdubxiOJvdiezXQQRW9eJinA
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
   url: https://afzalhmd14.github.io 
@@ -83,11 +83,11 @@
 
 
 - name: Aniket Agrawal
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
-  img: https://avatars3.githubusercontent.com/u/17072540?s=400&v=4
+  team: Control
+  img: https://media.licdn.com/dms/image/C5103AQHm6UZ20WaT7g/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=aMqWHP3zCJnG8Nl8O8hsUxDT8rxmYmPRu8G5VgEpaJI
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
   url: https://afzalhmd14.github.io 
@@ -95,11 +95,11 @@
 
 
 - name: Vatsal Goel
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
-  img: https://avatars3.githubusercontent.com/u/17072540?s=400&v=4
+  team: Control
+  img: https://media.licdn.com/dms/image/C4D03AQEKiveAsM1lpA/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=B6LthwVyo1fpdp_ktNWLl8gsvsYHv7ef4DKrtm3fLfk
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
   url: https://afzalhmd14.github.io 
@@ -107,10 +107,10 @@
 
 
 - name: Tejasvee
-  role: Project Head, Arle
+  role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
+  team: Control & ROS
   img: https://avatars2.githubusercontent.com/u/39336878?s=460&v=4
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
@@ -122,7 +122,55 @@
   role: Project Member, Arle
   dept: EEE
   project: Arle
-  team: Control, ROS & Design
+  team: Control & Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/53283539_2330457620523736_2860999637102231552_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=33f1b065a192a27efb6a2601b7fd949f&oe=5D25AC25
+  github: afzalhmd14
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Mrinal Mahato
+  role: Project Member, Arle
+  dept: EEE
+  project: Arle
+  team: Control & Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/53283539_2330457620523736_2860999637102231552_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=33f1b065a192a27efb6a2601b7fd949f&oe=5D25AC25
+  github: afzalhmd14
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Yogesh Yadav
+  role: Project Member, Arle
+  dept: EEE
+  project: Arle
+  team: Arm Design
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/53283539_2330457620523736_2860999637102231552_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=33f1b065a192a27efb6a2601b7fd949f&oe=5D25AC25
+  github: afzalhmd14
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Tanvi Ohri
+  role: Project Member, Arle
+  dept: EEE
+  project: Arle
+  team: Control
+  img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/53283539_2330457620523736_2860999637102231552_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=33f1b065a192a27efb6a2601b7fd949f&oe=5D25AC25
+  github: afzalhmd14
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Prathik Naik
+  role: Project Member, Arle
+  dept: EEE
+  project: Arle
+  team: Control
   img: https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-1/p160x160/53283539_2330457620523736_2860999637102231552_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=33f1b065a192a27efb6a2601b7fd949f&oe=5D25AC25
   github: afzalhmd14
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.

@@ -1,9 +1,151 @@
-- name: Rohit Kumar
+- name: Parismita Das
+  role: Project Head, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/parismita.png
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+- name: Guining Pertin
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/gp.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Jitendra Roy
   role: Project Head, Arle
   dept: EEE
   project: Arle
   team: Control, ROS & Design
+  img: /img/raman_team/jitendra.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Himanshu Kaushik
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/himanshu.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+
+- name: Rohit Kumar
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
   img: https://avatars3.githubusercontent.com/u/42107862?s=460&v=4
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+- name: Akshay Kumar
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/akshay.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Mahesh
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/mahesh.png
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Umang Kakkar
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/umang.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Vineet Singla
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/vineet.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+- name: Akash
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/akash.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Siddhanth
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/siddhanth.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Vaibhav
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/vaibhav.jpg
+  github: Rohit3475
+  bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
+  url: https://afzalhmd14.github.io 
+  visible: true
+
+
+- name: Sparsh Dutta
+  role: Project Member, Raman
+  dept: EEE
+  project: Arle
+  team: Control, ROS & Design
+  img: /img/raman_team/sparsh.jpg
   github: Rohit3475
   bio: Afzal Ahmad is a seniour undergraduate in EEE Department, pursing interest in robotics mainly in swarm robotics.
   url: https://afzalhmd14.github.io 

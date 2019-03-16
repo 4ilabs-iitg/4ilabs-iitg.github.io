@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Ideate, Innovate, Initiate, Incubate"/>
-	<meta property="og:title" content="Hello World!" />
+	<meta property="og:title" content="ROSbot SLAM" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000///arle/2019/03/04/First-Hello/" />
 <meta property="og:image" content="http://localhost:4000//img/team_bg_gray1.jpg"/>
@@ -34,7 +34,7 @@
 
 	<link rel='shortcut icon' type='image/png' href='/favicon2.png' />
 
-    <title>Hello World! - 4I Labs</title>
+    <title>ROSbot SLAM - 4I Labs</title>
 
     <link rel="canonical" href="http://localhost:4000/arle/2019/03/04/First-Hello/" />
 	
@@ -267,9 +267,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading" style="padding: 30px 0">
-                    <h1>Hello World!</h1>
+                    <h1>ROSbot SLAM</h1>
                     
-                    <h2 class="subheading">Know ARLE</h2>
+                    <h2 class="subheading">Using ROSbot SLAM</h2>
                     
                     <span class="meta">Posted by Abhay Pratap Singh on March 4, 2019</span>	
                 </div>
@@ -292,168 +292,6 @@
 
 
 
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
-	
-	
-	
-
-	
-	 
-	
-	
-			
-		
-			
-		
-	
-	
-			
-		
-			
-		
 	
 	
 	
@@ -514,33 +352,75 @@ img:active{
 <article>
     <div id="content" class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
 
 				<!-- Start Writing Below in Markdown -->
 
-<h2 id="autonomous-robot-for-library-enhancementarle">Autonomous Robot for Library Enhancement(ARLE)</h2>
+<h1 id="using-slam-for-arle-mini">Using SLAM for ARLE Mini</h1>
 
-<p>A project aimed at library maintenance by keeping the books sorted and in proper location. This will be achieved by an autonomous robot which can pick and place books from various locations in the library and keep it in the correct shelf.</p>
+<hr class="style-one" />
 
-<hr />
+<p><br /></p>
 
-<p><img src="../img/arle_mini1.jpg" alt="Arle Mini" title="Arle Mini" /></p>
+<h3 id="arle-mini-">ARLE Mini :</h3>
 
-<p><img src="../../img/arle_mini2.jpg" alt="Arle Mini" title="Arle Mini" /></p>
+<p>ARLE Mini is an autonomous open source robot capable of navigating using RPLidar powered by Intel NUC</p>
+
+<p>ARLE Mini is a miniature version of ARLE(Autonomous Robot for Library Enhancement) being developed for managing books in the institute library of Indian Institute of Technology, Guwahati. ARLE is aimed to be able to navigate autonomously in the library, identify books and racks using RFIDs, pick and place the books in the correct rack using an arm mounted on the bot.</p>
+
+<div class="row">
+	<div class="col-lg-6">
+		<img src="/img/arle_mini1.jpg" width="500px" alt="ARLE Mini top view" />	
+	</div>
+
+	<div class="col-lg-6">
+		<img src="/img/arle_mini2.jpg" width="500px" />
+	</div>
+
+	<p class="col-lg-12" style="text-align: center; margin: 20px 0px; font-size: 15px;">ARLE Mini first build</p>
+
+</div>
+
+<p><br />
+<br /></p>
+
+<hr class="style-one" />
+
+<h3 id="modules-used-for-autonomous-movement">Modules used for Autonomous Movement</h3>
+
+<ul>
+  <li>
+    <p><strong>Tf (tf2)</strong>: Coordinate the transform library. It’s one of the most important packages for ROS. Thanks to tf, you can manage all coordinate values, 	 including the position of the robot or relations between the camera and wheels. For treating various categories of coordinates, several distinctive concepts such 		as frame and tree are adopted.</p>
+  </li>
+  <li>
+    <p><strong>slam_gmapping</strong>: ROS wrapper for OpenSlam’s Gmapping. gmapping is one of the most famous SLAM algorithms. While still popular, there are also several alternatives now for this function.</p>
+  </li>
+  <li>
+    <p><strong>move_base</strong>: Core module for autonomous navigation. This package provides various functions, including planning a route, maintaining cost maps, and issuing speed and direction commands for motors.
+  Robot_state_publisher. Publishes the 3D poses of the robot links, which are important for a manipulator or humanoid. In the case of SAWR, the most important data maintained by this module is the position and orientation of the robot and the location of the camera relative to the robot’s position.</p>
+  </li>
+  <li>
+    <p><strong>Robot_state_publisher</strong>: Publishes the 3D poses of the robot links, which are important for a manipulator or humanoid. In the case of SAWR, the most important data maintained by this module is the position and orientation of the robot and the location of the camera relative to the robot’s position.</p>
+  </li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<p><img width="1100px" style="float: none;" src="https://software.intel.com/sites/default/files/managed/5e/8c/Build-Autonomous-Mobile-Robot-Intel-RealSense-Camera-ROS-SAWR-fig13.png" alt="sawr_graph" title="SAWR ROS node graph viewed by rqt_graph" /></p>
+
+<p class="col-lg-12" style="text-align: center; margin: 10px 0px; font-size: 15px;">SAWR ROS node graph viewed by rqt_graph</p>
+
+<p><br /></p>
+
+<p>Find some useful content on SLAM &amp; Mapping for autonomous robots <a href="https://software.intel.com/en-us/articles/build-an-autonomous-mobile-robot-with-the-intel-realsense-camera-ros-and-sawr">here</a></p>
+
 
 
                 <hr>
 
                 <ul class="pager">
                     
-                    <li class="previous">
-                        <a href="/2016/05/02/New-Surface-Visualization/" data-toggle="tooltip" data-placement="top" title="New Surface Visualization">&larr; Previous Post</a>
-                    </li>
-                    
-                    
-                    <li class="next">
-                        <a href="/2019/03/04/Robotics-Hackathon/" data-toggle="tooltip" data-placement="top" title="Robotics Hackathon">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

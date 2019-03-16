@@ -30,22 +30,31 @@ header-img: "img/team_bg_gray1.jpg"
 <h1>Arle Team</h1>
 <hr>
 
+
+{% for team in site.data.arle_teams %}
 <div class="row">
+<h3> Team : {{ team.team_name }}</h3>
+<br>
+
 {% for member in site.data.arle_members %} {% if member.visible == true %}
+{% for team_id in member.team %}
+{% if team.team_id == team_id %}
 		<div class="col-md-3">
 			<div class="thumbnail">
 				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
 				<div class="caption">
-					<h6>{{ member.name }}</h3>
-					<p>
+					<h4 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.name }}</h3>
+					<h5 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">
 						{{ member.role }}</br>
-						{{ member.team }}
-					</p>
+						{{ team.team_name }}
+					</h5>
 				</div>				
 			</div>			
-		</div>		
+		</div>
+{% endif %} {% endfor %}
 {% endif %}{% endfor %}
 </div>
+{% endfor %}
 
 
 <h1>Hexacopter Team</h1>
@@ -57,8 +66,8 @@ header-img: "img/team_bg_gray1.jpg"
 			<div class="thumbnail">
 				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
 				<div class="caption">
-					<h6>{{ member.name }}</h3>
-					<p>{{ member.role }}</p>
+					<h4 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.name }}</h4>
+					<h5 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.role }}</h5>
 				</div>				
 			</div>			
 		</div>		
@@ -75,8 +84,8 @@ header-img: "img/team_bg_gray1.jpg"
 			<div class="thumbnail">
 				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
 				<div class="caption">
-					<h6>{{ member.name }}</h3>
-					<p>{{ member.role }}</p>
+					<h4 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.name }}</h4>
+					<h5 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.role }}</h5>
 				</div>				
 			</div>			
 		</div>		
@@ -93,8 +102,8 @@ header-img: "img/team_bg_gray1.jpg"
 			<div class="thumbnail">
 				<img src="{{ member.img }}" style="width: 200px; height: 200px;">
 				<div class="caption">
-					<h6>{{ member.name }}</h3>
-					<p>{{ member.role }}</p>
+					<h4 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.name }}</h4>
+					<h5 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 100">{{ member.role }}</h5>
 				</div>				
 			</div>			
 		</div>		

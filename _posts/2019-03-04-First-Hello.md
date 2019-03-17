@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ROSbot SLAM 
+title:      ARLE Mini SLAM 
 author:     Abhay Pratap Singh
 tags: 		4ilabs arle rosbot slam
 category:   arle

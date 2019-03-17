@@ -1,7 +1,7 @@
 callback([
 
   {
-    "text": "ROSbot SLAM",
+    "text": "ARLE Mini SLAM",
     "href": "http://localhost:4000/arle/2019/03/04/First-Hello/"
   } 
 
